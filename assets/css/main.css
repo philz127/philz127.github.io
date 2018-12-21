@@ -1308,7 +1308,7 @@ input, select, textarea {
 	body {
 		background-image: url("images/bg.jpg");
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		background-attachment: fixed;
 		overflow-y: scroll;
 	}
