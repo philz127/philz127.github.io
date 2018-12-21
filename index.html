@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Philip Ankrah</title>
@@ -48,6 +44,19 @@
 								<p>
 									
 								</p>
+
+								<section>
+									var myGamePiece;
+var myObstacles = [];
+var myScore;
+
+function startGame() {
+  myGamePiece = new component(30, 30, "red", 10, 160);
+  myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+  myGameArea.start();
+}
+
+								</section>
 								<section>
 									<div class="row">
 										<div class="col-4 col-6-medium col-12-small">
